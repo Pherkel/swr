@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "swr"
+version = "0.1.0"
+description = "Seminar Spoken Word Recognition SS2023"
+authors = ["Philipp Merkel <philippmerkel@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+torchaudio = "^2.0.1"
+soundfile = "^0.12.1"
+matplotlib = "^3.7.1"
+librosa = "^0.10.0.post2"
+ipykernel = "^6.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
